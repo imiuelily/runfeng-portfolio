@@ -1,0 +1,41 @@
+Runfeng Li - English Resume
+Lily Runfeng Li
+0436964864 | U7749827@anu.edu.au
+
+EDUCATION
+The Australian National University
+Major: Master of Computer Science
+Canberra ACT 2601
+2023.7 – Present
+Shanghai Ocean University / University of Tasmania (Joint Program)
+Major: Bachelor of Information Management and Information Systems
+GPA: 3.5/4.0, Average Score: 86 (Top 30%)
+Shanghai China 201306
+2019.9 - 2023.6
+WORK EXPERIENCE
+Shanghai Shuhua Cloud Information Technology Co., Ltd. - Business Delivery Assistant
+SIG Project Management: Led 4 SIG projects, including requirements analysis, progress tracking, risk control, and cross-department coordination; achieved all milestones on time.
+TAPD Management: Utilized TAPD for planning and task allocation across 4 projects, effectively overseeing development progress and resource management.
+Requirements Analysis: Conducted research for 2 core business requirements, developed detailed documentation, and reduced communication costs and rework rates by 30%.
+System Configuration & Optimization: Completed system configurations and optimized resource utilization, improving system stability and response speed by 15%.
+Shanghai, China
+ 
+2022.6 - 2022.9
+PROJECT EXPERIENCE
+Java Game Development - Race to the Raft
+Game Mechanics Implementation: Developed game rules using Java, enabling interactive gameplay with cat movements, card placements, and fire tiles.
+User Interface Design: Designed an intuitive interface using JavaFX, facilitating seamless player actions.
+Testing and Debugging: Conducted testing to ensure game stability, achieving the game objective of guiding cats to the raft.
+ 
+2024.4-2024.11
+ 
+ 
+AWARDS
+·3rd Prize, "Zhixing Cup" Shanghai College Student Social Practice Competition (2021.11)
+·3rd Prize, Shanghai College Student National Security Education Micro-Video Competition (2021.4)
+·Excellence Award, 16th China Creativity Competition (Provincial Level, 2022.7) - UI
+·Awarded 5 times the Shanghai Ocean University People’s Scholarship and 4 Advanced Individual Awards (Outstanding Student & Group Leader); recognized as an Outstanding Trainee of the Youth Marxist Project (Qingma Project).
+SKILLS/CERTIFICATES & OTHERS
+·Technical Skills: Java, Python, SQL, Oracle, Web Development (HTML/CSS, JavaScript), UI Design, Photoshop, Premiere, Data Analysis (VLOOKUP, Pivot Tables)
+·Major Courses: Data Management, Requirements Analysis & Modeling, Project Management, Dynamic Network Development, Organizational Behavior.
+ 
