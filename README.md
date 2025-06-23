@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 李润风的产品经理作品集 | Runfeng Li's Product Manager Portfolio
 
-## Getting Started
+一个现代化的双语产品经理作品集网站，展示专业经验、技能和项目成果。
 
-First, run the development server:
+A modern bilingual product manager portfolio website showcasing professional experience, skills, and project achievements.
+
+## 🌟 特色功能 | Features
+
+- **双语支持** | **Bilingual Support**: 中文/English无缝切换
+- **响应式设计** | **Responsive Design**: 完美适配移动端和桌面端
+- **现代化技术栈** | **Modern Tech Stack**: Next.js 15 + React 19 + TypeScript + Tailwind CSS
+- **静态部署** | **Static Deployment**: 支持GitHub Pages部署
+- **性能优化** | **Performance Optimized**: 快速加载和流畅体验
+
+## 🚀 技术栈 | Tech Stack
+
+- **前端框架**: Next.js 15 (React 19)
+- **类型检查**: TypeScript
+- **样式框架**: Tailwind CSS 4.0
+- **部署平台**: GitHub Pages
+- **CI/CD**: GitHub Actions
+
+## 🛠️ 本地开发 | Local Development
 
 ```bash
+# 克隆项目
+git clone https://github.com/your-username/product-manager-portfolio.git
+cd product-manager-portfolio
+
+# 安装依赖
+npm install
+
+# 启动开发服务器
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 构建项目
+npm run build
+
+# 启动生产服务器
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+打开 [http://localhost:3000](http://localhost:3000) 查看结果。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 项目结构 | Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+product-manager-portfolio/
+├── src/
+│   └── app/
+│       ├── page.tsx          # 主页面组件
+│       ├── layout.tsx        # 布局组件
+│       └── globals.css       # 全局样式
+├── public/                   # 静态资源
+├── .github/
+│   └── workflows/
+│       └── deploy.yml        # GitHub Pages部署配置
+├── next.config.ts            # Next.js配置
+└── package.json
+```
 
-## Learn More
+## 🌐 网站部分 | Website Sections
 
-To learn more about Next.js, take a look at the following resources:
+1. **英雄区块** | **Hero Section**: 个人介绍和核心信息
+2. **关于我** | **About**: 专业背景和理念
+3. **核心技能** | **Skills**: 数据分析、用户体验、敏捷开发、产品策略
+4. **工作经验** | **Experience**: 详细的职业经历
+5. **项目案例** | **Projects**: 重点项目展示
+6. **联系方式** | **Contact**: 多种联系渠道
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 设计亮点 | Design Highlights
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 渐变背景和现代化视觉效果
+- 流畅的动画和交互体验
+- 专业的配色方案
+- 清晰的信息层级
+- 优雅的卡片式布局
 
-## Deploy on Vercel
+## 📱 响应式支持 | Responsive Support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 移动端优先设计
+- 平板电脑适配
+- 桌面端优化
+- 跨浏览器兼容
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 部署 | Deployment
+
+本项目配置了自动部署到GitHub Pages：
+
+1. 推送代码到main分支
+2. GitHub Actions自动构建和部署
+3. 访问 `https://your-username.github.io/product-manager-portfolio`
+
+## 📞 联系方式 | Contact
+
+- **邮箱** | **Email**: runfeng.li@example.com
+- **微信** | **WeChat**: runfeng_li
+- **LinkedIn**: [linkedin.com/in/runfeng-li](https://linkedin.com/in/runfeng-li)
+
+## 📄 许可证 | License
+
+MIT License
+
+---
+
+**专注于创造用户喜爱的产品 | Focused on creating products users love**

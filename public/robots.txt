@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://runfeng-li.github.io/product-manager-portfolio/sitemap.xml 
