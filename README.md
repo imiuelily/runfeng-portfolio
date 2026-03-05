@@ -1,31 +1,53 @@
-# 李润风的产品经理作品集 | Runfeng Li's Product Manager Portfolio
+# Runfeng Li – Product & Technology Portfolio
 
-一个现代化的双语产品经理作品集网站，展示专业经验、技能和项目成果。
+一个融合**技术理解力**与**业务洞察**的个人作品集，旨在展示我在产品定义、数据驱动及跨部门协作中的实践与思考。
 
-A modern bilingual product manager portfolio website showcasing professional experience, skills, and project achievements.
+This repository hosts my professional portfolio. It’s designed to provide hiring managers and engineering teams with a clear view of my dual-background capabilities, delivery record, and "bridge" mindset between business and technology.
 
-## 🌟 特色功能 | Features
+---
 
-- **双语支持** | **Bilingual Support**: 中文/English无缝切换
-- **响应式设计** | **Responsive Design**: 完美适配移动端和桌面端
-- **现代化技术栈** | **Modern Tech Stack**: Next.js 15 + React 19 + TypeScript + Tailwind CSS
-- **静态部署** | **Static Deployment**: 支持GitHub Pages部署
-- **性能优化** | **Performance Optimized**: 快速加载和流畅体验
+## 核心定位 | Value Proposition
 
-## 🚀 技术栈 | Tech Stack
+* **复合背景 (Hybrid Persona)**：计算机硕士 & 信息管理学士。拥有 Java/Python 开发理解力与 SQL 实战能力，擅长将复杂的业务逻辑转化为精准的技术需求。
+* **项目实战 (Execution)**：深谙敏捷开发（Sprints/TAPD），具备从 0 到 1 的项目全生命周期管理经验。
+* **职业特质 (Soft Skills)**：
+* **高韧性观察者**：随和谦逊但意志坚定，擅长在高压环境下通过深度聆听与客观分析推动决策。
+* **数据驱动者**：坚持用数据说话，曾通过建模优化显著提升业务流程效率。
 
-- **前端框架**: Next.js 15 (React 19)
-- **类型检查**: TypeScript
-- **样式框架**: Tailwind CSS 4.0
-- **部署平台**: GitHub Pages
-- **CI/CD**: GitHub Actions
 
-## 🛠️ 本地开发 | Local Development
+
+---
+
+## 网站内容 | What's Inside
+
+* **职业标签**：技术型产品经理 / 业务分析师 / 数字化转型。
+* **精选项目**：包含业务背景、痛点拆解、解决方案（PRD/流程图）及量化结果。
+* **在校经历**：涵盖 2000+ 人次大型活动统筹及多项市级竞赛获奖荣誉。
+* **技能矩阵**：从产品原型设计到后端逻辑理解，展示全栈式思考路径。
+
+*The site is fully bilingual (CN/EN) to accommodate diverse hiring contexts.*
+
+---
+
+## 技术实现 | Technical Implementation
+
+作为一名拥有计算机背景的产品人，我选择了主流的技术栈来构建此站点，以确保性能与可扩展性：
+
+* **Framework**: [Next.js](https://nextjs.org/) (React) - 兼顾 SEO 与响应式体验。
+* **Language**: TypeScript - 保证代码逻辑的严谨性。
+* **Styling**: Tailwind CSS - 实现现代化的 UI 设计系统。
+* **Deployment**: GitHub Pages - 通过 GitHub Actions 实现持续集成与自动部署 (CI/CD)。
+
+---
+
+## 运行与探索 | Run Locally
+
+如果你想了解我的代码习惯或本地预览，可以执行以下命令：
 
 ```bash
 # 克隆项目
-git clone https://github.com/your-username/product-manager-portfolio.git
-cd product-manager-portfolio
+git clone https://github.com/imiuelily/runfeng-portfolio.git
+cd runfeng-portfolio
 
 # 安装依赖
 npm install
@@ -33,73 +55,12 @@ npm install
 # 启动开发服务器
 npm run dev
 
-# 构建项目
-npm run build
-
-# 启动生产服务器
-npm start
 ```
-
-打开 [http://localhost:3000](http://localhost:3000) 查看结果。
-
-## 📁 项目结构 | Project Structure
-
-```
-product-manager-portfolio/
-├── src/
-│   └── app/
-│       ├── page.tsx          # 主页面组件
-│       ├── layout.tsx        # 布局组件
-│       └── globals.css       # 全局样式
-├── public/                   # 静态资源
-├── .github/
-│   └── workflows/
-│       └── deploy.yml        # GitHub Pages部署配置
-├── next.config.ts            # Next.js配置
-└── package.json
-```
-
-## 🌐 网站部分 | Website Sections
-
-1. **英雄区块** | **Hero Section**: 个人介绍和核心信息
-2. **关于我** | **About**: 专业背景和理念
-3. **核心技能** | **Skills**: 数据分析、用户体验、敏捷开发、产品策略
-4. **工作经验** | **Experience**: 详细的职业经历
-5. **项目案例** | **Projects**: 重点项目展示
-6. **联系方式** | **Contact**: 多种联系渠道
-
-## 🎨 设计亮点 | Design Highlights
-
-- 渐变背景和现代化视觉效果
-- 流畅的动画和交互体验
-- 专业的配色方案
-- 清晰的信息层级
-- 优雅的卡片式布局
-
-## 📱 响应式支持 | Responsive Support
-
-- 移动端优先设计
-- 平板电脑适配
-- 桌面端优化
-- 跨浏览器兼容
-
-## 🚀 部署 | Deployment
-
-本项目配置了自动部署到GitHub Pages：
-
-1. 推送代码到main分支
-2. GitHub Actions自动构建和部署
-3. 访问 `https://your-username.github.io/product-manager-portfolio`
-
-## 📞 联系方式 | Contact
-
-- **邮箱** | **Email**: imiuelily@outlook.com
-- **微信** | **WeChat**: imiuelily
-
-## 📄 许可证 | License
-
-MIT License
 
 ---
 
-**专注于创造用户喜爱的产品 | Focused on creating products users love**
+## 联系我 | Contact
+
+目前我希望在复杂的业务场景中通过实战打磨职业路径。如果你觉得我的背景与你的团队契合，欢迎随时联系！
+
+* **Email**: imiuelily@outlook.com
