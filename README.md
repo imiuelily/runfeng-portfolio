@@ -93,9 +93,8 @@ product-manager-portfolio/
 
 ## 📞 联系方式 | Contact
 
-- **邮箱** | **Email**: runfeng.li@example.com
-- **微信** | **WeChat**: runfeng_li
-- **LinkedIn**: [linkedin.com/in/runfeng-li](https://linkedin.com/in/runfeng-li)
+- **邮箱** | **Email**: imiuelily@outlook.com
+- **微信** | **WeChat**: imiuelily
 
 ## 📄 许可证 | License
 
