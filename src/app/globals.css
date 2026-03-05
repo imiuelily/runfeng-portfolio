@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FFFDF2;
+  --foreground: #0F1616;
 }
 
 @theme inline {
@@ -14,13 +14,53 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0F1616;
+    --foreground: #FFFAE4;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Crimson Pro Var", "Noto Serif SC Var", serif;
+}
+
+/* Local font faces from /public */
+@font-face {
+  font-family: "Noto Serif SC Var";
+  src: url("/Noto_Serif_SC/NotoSerifSC-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Crimson Pro Var";
+  src: url("/Crimson_Pro,Noto_Serif_SC/Crimson_Pro/CrimsonPro-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Accent multi-stop gradient for circular elements */
+.circle-accent-gradient {
+  background: conic-gradient(
+    from 0deg,
+    #F3CB1E 0%,
+    #F6EFD3 25%,
+    #E4A267 50%,
+    #ED7511 75%,
+    #F3CB1E 100%
+  );
+}
+
+.btn-accent-gradient,
+.linear-accent-gradient {
+  background: linear-gradient(
+    90deg,
+    #F3CB1E 0%,
+    #F6EFD3 25%,
+    #E4A267 60%,
+    #ED7511 100%
+  );
 }
