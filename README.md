@@ -59,8 +59,14 @@ npm run dev
 
 ---
 
+## 在线访问 | Live Site
+
+`https://imiuelily.github.io/runfeng-portfolio/`
+
+---
+
 ## 联系我 | Contact
 
-目前我希望在复杂的业务场景中通过实战打磨职业路径。如果你觉得我的背景与你的团队契合，欢迎随时联系！
+如果你想进一步了解某个项目细节、数据指标或我的具体分工，欢迎直接联系我。
 
 * **Email**: imiuelily@outlook.com

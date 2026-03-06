@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/product-manager-portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/product-manager-portfolio/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/runfeng-portfolio' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/runfeng-portfolio/' : '',
 };
 
 export default nextConfig;
