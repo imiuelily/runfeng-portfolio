@@ -4,6 +4,8 @@ import { useState } from "react";
 
 export default function Home() {
   const [language, setLanguage] = useState<'zh' | 'en'>('zh');
+  const basePath = process.env.NODE_ENV === 'production' ? '/runfeng-portfolio' : '';
+  const withBasePath = (path: string) => `${basePath}${path}`;
 
   const content = {
     zh: {
@@ -529,7 +531,7 @@ export default function Home() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden">
               <img
-                src="/images/hero/hero-profile.PNG"
+                src={withBasePath("/images/hero/hero-profile.PNG")}
                 alt={language === 'zh' ? '李润风 个人照片' : 'Runfeng Li profile photo'}
                 className="w-full h-full object-contain bg-transparent"
                 loading="eager"
@@ -715,7 +717,7 @@ export default function Home() {
                   <div className="aspect-[4/3] rounded-lg overflow-hidden border border-[#FFF4D6] bg-white flex items-center justify-center">
                     {project.image ? (
                       <img
-                        src={project.image}
+                        src={withBasePath(project.image)}
                         alt={typeof project.title === 'string' ? project.title : 'project image'}
                         className="w-full h-full object-contain"
                         loading="lazy"
@@ -757,7 +759,7 @@ export default function Home() {
           </div>
           <div className="rounded-xl overflow-hidden mt-8 bg-white flex items-center justify-center">
             <img
-              src="/images/awards-and-achievements/award.PNG"
+              src={withBasePath("/images/awards-and-achievements/award.PNG")}
               alt={language === 'zh' ? '获奖与成就' : 'Awards & Achievements'} 
               className="w-full h-56 object-contain"
               loading="lazy"
@@ -810,7 +812,7 @@ export default function Home() {
               {/* content removed as requested */}
               <div className="rounded-xl overflow-hidden mt-4 bg-white flex items-center justify-center">
                 <img
-                  src="/images/life/baking-banner.JPG"
+                  src={withBasePath("/images/life/baking-banner.JPG")}
                   alt={language === 'zh' ? '烘焙横幅' : 'Baking banner'}
                   className="w-full h-56 object-contain"
                   loading="lazy"
@@ -844,7 +846,7 @@ export default function Home() {
               {/* Photo banner gallery */}
               <div className="rounded-xl overflow-hidden bg-white flex items-center justify-center">
                 <img
-                  src="/images/life/travel-banner.PNG"
+                  src={withBasePath("/images/life/travel-banner.PNG")}
                   alt={language === 'zh' ? '精彩瞬间' : 'Precious moments'}
                   className="w-full h-56 object-contain"
                   loading="lazy"
