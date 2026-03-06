@@ -4,7 +4,8 @@ import { useState } from "react";
 
 export default function Home() {
   const [language, setLanguage] = useState<'zh' | 'en'>('zh');
-  const basePath = process.env.NODE_ENV === 'production' ? '/runfeng-portfolio' : '';
+
+  const basePath = process.env.NODE_ENV === "production" ? "/runfeng-portfolio" : "";
   const withBasePath = (path: string) => `${basePath}${path}`;
 
   const content = {
@@ -124,35 +125,35 @@ export default function Home() {
               { label: "项目网站", url: "https://plantdis.github.io/" },
               { label: "YouTube 演示", url: "https://youtu.be/NUCTFa1jxMM?si=3Tq5Men3W-2DfbF8" }
             ],
-            image: "/images/plant-disease/plantdis.PNG",
+            image: withBasePath("/images/plant-disease/plantdis.PNG"),
             gradient: "from-green-300 to-green-500"
           },
           {
             title: "Java游戏开发 - Race to the Raft",
             description: "基于Java语言开发的交互式游戏，实现完整的游戏机制和用户界面。通过JavaFX创建丰富的图形与动画效果，提升用户体验。",
             tags: ["Java", "JavaFX", "游戏开发", "UI设计"],
-            image: "/images/java-race-to-the-raft/cover.jpg",
+            image: withBasePath("/images/java-race-to-the-raft/cover.jpg"),
             gradient: "from-orange-300 to-orange-500"
           },
           {
             title: "预算管理系统优化",
             description: "在上海数划云科技实习期间，设计并完成30余张预算表单的数据采集系统，优化数据录入流程，显著提升数据处理效率。",
             tags: ["数据分析", "系统优化", "流程管理", "数据库"],
-            image: "/images/budget-optimization/shuhua.PNG",
+            image: withBasePath("/images/budget-optimization/shuhua.PNG"),
             gradient: "from-blue-300 to-blue-500"
           },
           {
             title: "大型活动策划与组织",
             description: "主导策划并组织10余场大型校内活动，包括学术讲座、社会实践等，累计吸引超过2000名师生参与，建立品牌活动影响力。",
             tags: ["活动策划", "项目管理", "团队协作", "品牌建设"],
-            image: "/images/campus-events/cover.jpg",
+            image: withBasePath("/images/campus-events/cover.jpg"),
             gradient: "from-orange-400 to-blue-400"
           },
           {
             title: "获奖创意设计项目",
             description: "参与多项创意设计比赛并获奖，包括中国好创意大赛省赛优秀奖、微视频创作比赛等，展现创新思维和设计能力。",
             tags: ["创意设计", "UI设计", "视频制作", "Photoshop"],
-            image: "/images/creative-design/design.PNG",
+            image: withBasePath("/images/creative-design/design.PNG"),
             gradient: "from-blue-400 to-orange-400"
           }
         ]
@@ -326,35 +327,35 @@ export default function Home() {
               { label: "Website", url: "https://plantdis.github.io/" },
               { label: "YouTube", url: "https://youtu.be/NUCTFa1jxMM?si=3Tq5Men3W-2DfbF8" }
             ],
-            image: "/images/plant-disease/plantdis.PNG",
+            image: withBasePath("/images/plant-disease/plantdis.PNG"),
             gradient: "from-green-300 to-green-500"
           },
           {
             title: "Java Game Development - Race to the Raft",
             description: "Developed an interactive game using Java with complete game mechanics and user interface. Created rich graphics and animations using JavaFX to enhance user experience.",
             tags: ["Java", "JavaFX", "Game Development", "UI Design"],
-            image: "/images/java-race-to-the-raft/cover.jpg",
+            image: withBasePath("/images/java-race-to-the-raft/cover.jpg"),
             gradient: "from-orange-300 to-orange-500"
           },
           {
             title: "Budget Management System Optimization",
             description: "Designed and completed data collection for 30+ budget forms during internship, optimizing data entry processes and significantly improving data processing efficiency.",
             tags: ["Data Analysis", "System Optimization", "Process Management", "Database"],
-            image: "/images/budget-optimization/shuhua.PNG",
+            image: withBasePath("/images/budget-optimization/shuhua.PNG"),
             gradient: "from-blue-300 to-blue-500"
           },
           {
             title: "Large-scale Event Planning & Organization", 
             description: "Led planning and organization of 10+ large-scale campus activities including academic lectures and social practices, attracting 2000+ participants and establishing branded activities.",
             tags: ["Event Planning", "Project Management", "Team Collaboration", "Brand Building"],
-            image: "/images/campus-events/cover.jpg",
+            image: withBasePath("/images/campus-events/cover.jpg"),
             gradient: "from-orange-400 to-blue-400"
           },
           {
             title: "Award-winning Creative Design Projects",
             description: "Participated in multiple creative design competitions with awards including Excellence Award in China Creativity Competition and micro-video creation contests.",
             tags: ["Creative Design", "UI Design", "Video Production", "Photoshop"],
-            image: "/images/creative-design/design.PNG",
+            image: withBasePath("/images/creative-design/design.PNG"),
             gradient: "from-blue-400 to-orange-400"
           }
         ]
@@ -717,7 +718,7 @@ export default function Home() {
                   <div className="aspect-[4/3] rounded-lg overflow-hidden border border-[#FFF4D6] bg-white flex items-center justify-center">
                     {project.image ? (
                       <img
-                        src={withBasePath(project.image)}
+                        src={project.image}
                         alt={typeof project.title === 'string' ? project.title : 'project image'}
                         className="w-full h-full object-contain"
                         loading="lazy"

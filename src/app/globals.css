@@ -28,7 +28,9 @@ body {
 /* Local font faces from /public */
 @font-face {
   font-family: "Noto Serif SC Var";
-  src: url("/Noto_Serif_SC/NotoSerifSC-VariableFont_wght.ttf") format("truetype");
+  src:
+    url("/runfeng-portfolio/Noto_Serif_SC/NotoSerifSC-VariableFont_wght.ttf") format("truetype"),
+    url("/Noto_Serif_SC/NotoSerifSC-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -36,7 +38,10 @@ body {
 
 @font-face {
   font-family: "Crimson Pro Var";
-  src: url("/Crimson_Pro,Noto_Serif_SC/Crimson_Pro/CrimsonPro-VariableFont_wght.ttf") format("truetype");
+  src:
+    url("/runfeng-portfolio/Crimson_Pro,Noto_Serif_SC/Crimson_Pro/CrimsonPro-VariableFont_wght.ttf")
+      format("truetype"),
+    url("/Crimson_Pro,Noto_Serif_SC/Crimson_Pro/CrimsonPro-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
